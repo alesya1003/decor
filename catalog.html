@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decor-Catalog</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header header-breadcrumbs">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="index.html">
+            <img src="images/header-logo.svg" alt="logo">
+          </a>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__list-link" href="index.html">Главная</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="shop.html">Магазин</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Оплата и доставка</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="catalog.html">КАТАЛОГ</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="card-product.html">Карточка товара</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="contact-map.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__phone" href="tel:+79001252256">+7(900) 125-22-56</a>
+          <a class="header__btn" href="tel:+79001252256" type="submit">Заказать звонок</a>
+          <a class="header__mob-btn" href="tel:+79001252256" type="submit">звонок</a>
+          <div class="header__basket">
+            <a class="header__basket-box" href="#">
+              <span>15</span>
+            </a>
+          </div>
+          <div class="header__mobile-btn">
+            <img class="header__btn-img" src="images/burger.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="header__mobile">
+        <div class="header__mobile-inner">
+          <a class="header__logo" href="#">
+            <img src="images/header-logo.svg" alt="logo">
+          </a>
+          <a class="header__phone-mob" href="tel:+79001252256">+7(900) 125-22-56</a>
+          <a class="header__btn-mob" href="tel:+79001252256" type="submit">звонок</a>
+          <div class="header__basket">
+            <a class="header__basket-box" href="#">
+              <span>15</span>
+            </a>
+          </div>
+          <div class="header__mobile-cross">
+            <img class="header__img-cross" src="images/mobile-cross.svg" alt="">
+          </div>
+        </div>
+        <nav class="header__mob-menu">
+          <ul class="header__list-mob">
+            <li class="header__mob-item">
+              <a class="header__mob-link" href="index.html">Главная</a>
+            </li>
+            <li class="header__mob-item">
+              <a class="header__mob-link" href="shop.html">Магазин</a>
+            </li>
+            <li class="header__mob-item">
+              <a class="header__mob-link" href=" #">Оплата и доставка</a>
+            </li>
+            <li class="header__mob-item">
+              <a class="header__mob-link" href="catalog.html">Каталог</a>
+            </li>
+            <li class="header__mob-item">
+              <a class="header__mob-link" href="card-product.html">Карточка товара</a>
+            </li>
+            <li class="header__mob-item">
+              <a class="header__mob-link" href="contact-map.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__phone-mob header__phone-mob--down" href="tel:+79001252256">+7(900) 125-22-56</a>
+        <a class="header__btn-mob header__btn-mob--down" href="tel:+79001252256" type="submit">звонок</a>
+      </div>
+
+      <!-- -------------------------------------------------------------------------------- -->
+    </header>
+
+    <main class="main">
+
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Главная \</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Магазин \</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Вся продукция</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="assortment">
+        <div class="container">
+          <div class="assortment__items">
+            <ul class="assortment__list">
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-1.svg" alt="">
+                  <div class="assortment__title">ВСЕ ТОВАРЫ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-2.svg" alt="">
+                  <div class="assortment__title assortment__title--sale">SALE</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-3.svg" alt="">
+                  <div class="assortment__title">КАРТЫ МИРА</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-4.svg" alt="">
+                  <div class="assortment__title">ЧАСЫ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-5.svg" alt="">
+                  <div class="assortment__title">ФОТОРАМКИ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-6.svg" alt="">
+                  <div class="assortment__title">ЖИВОТНЫЕ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-7.svg" alt="">
+                  <div class="assortment__title">НАДПИСИ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-8.svg" alt="">
+                  <div class="assortment__title">ГЕОМЕТРИЯ</div>
+                </a>
+              </li>
+              <li class="assortment__item">
+                <a class="assortment__link" href="#">
+                  <img class="assortment__img" src="images/assortment/icon-9.svg" alt="">
+                  <div class="assortment__title">ЭТНИЧЕСКИЕ МАСКИ</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <h3 class="products__title">Все товары</h3>
+          <div class="products__inner">
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+            <div class="sale-slider__item products__item">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="products__pagination">
+            <ul class="products__pagination-list">
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">
+                  <img class="products__pagination-arrow" src="images/pagination-back.svg" alt="">
+                </a>
+              </li>
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">1</a>
+              </li>
+              <li class="products__pagination-item active">
+                <a class="products__pagination-link" href="#">2</a>
+              </li>
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">3</a></li>
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">4</a>
+              </li>
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">5</a>
+              </li>
+              <li class="products__pagination-item">
+                <a class="products__pagination-link" href="#">
+                  <img class="products__pagination-arrow" src="images/pagination-next.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="sale stock">
+        <div class="container">
+          <h2 class="section-title stock__title">SALE И АКЦИИ</h2>
+          <div class="sale-slider">
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">«Волк»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">7 300 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-3.svg" alt="">
+                  <h6 class="sale-slider__title">««Волк»: металлическое панно
+                  </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-1.svg" alt="">
+                  <h6 class="sale-slider__title">«Орел»: металлическое панно</h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">8 000 РУБ.</div>
+                    <div class="sale-slider__price-new">5 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+            <div class="sale-slider__item ">
+              <div class="sale-slider__item-wrapper">
+                <a class="sale-slider__product " href="#">
+                  <div class="sale-slider__product-sale">SALE</div>
+                  <img class="sale-slider__img" src="images/sale/sale-2.svg" alt="">
+                  <h6 class="sale-slider__title">«Колибри»: металлическое панно </h6>
+                  <div class="sale-slider__price">
+                    <div class="sale-slider__price-old">10 000 РУБ.</div>
+                    <div class="sale-slider__price-new">8 500 РУБ.</div>
+                  </div>
+                </a>
+                <a class="sale-slider__over" href="#">Перейти к товару</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="views">
+        <div class="container">
+          <h4 class="views__title">Панно</h4>
+          <p class="views__text">
+            На нашем сайте <span>«Décor Boutique»</span> имеется возможность купить современное панно на стену. Такой
+            вариант отлично подойдет всем, кому надоели обычные, однообразные картины, и кому хочется чего-то новогои
+            интересного. Если вы ищите, где купить панно в интернет магазине в Москве, то вы попали правильно. У нас
+            возможно изготовление на заказ или покупка товара, который находится в наличии.
+          </p>
+          <h4 class="views__title">Цены</h4>
+          <p class="views__text">
+            Цена панно на стену варьируется, в зависимости от размера картины и материала изготовления. У нас вы можете
+            купить красивое панно на стену, изготовленное из <span>дерева, металла или пластика</span>по приятной
+            стоимости. Мы используем только качественные материалы.
+          </p>
+          <p class="views__text">
+            Изначально покупатели часто задумываются, где можно купить панно на стену. На самом деле вариантов очень
+            много. Но мы рекомендуем покупать <span>деревянное, пластмассовое или металлическое панно</span> на стену в
+            Москве в интернет магазине. У такой покупки имеется масса плюсов.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__shop">
+            <nav class="footer__top-shop">
+              <ul class="footer__shop-list">
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="shop.html">
+                    МАГАЗИН
+                  </a>
+                </li>
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="catalog.html">
+                    КАТАЛОГ
+                  </a>
+                </li>
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="#">
+                    МАТЕРИАЛЫ
+                  </a>
+                </li>
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="catalog.html">
+                    КОЛЛЕКЦИИ
+                  </a>
+                </li>
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="#">
+                    SALE
+                  </a>
+                </li>
+                <li class="footer__shop-item">
+                  <a class="footer__shop-link" href="#">
+                    АКЦИИ
+                  </a>
+                </li>
+              </ul>
+            </nav>
+    
+          </div>
+          <div class="footer__social">
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="mailto:info@gmail.com">
+                  <img class="footer__social-img" src="images/footer-mail.svg" alt="e-mail">
+                </a>
+              </li>
+              <li class="footer__social-item footer__social-line">
+                <a class="footer__social-link" href="#">
+                  <img class="footer__social-img" src="images/footer-fb.svg" alt="facebook">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img class="footer__social-img" src="images/footer-insta.svg" alt="instagram">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about">
+            <nav class="footer__top-about">
+              <ul class="footer__about-list">
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="#">
+                    КОНСТРУКТОР
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="#">
+                    ОПЛАТА И ДОСТАВКА
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="#">
+                    ОТЗЫВЫ
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="#">
+                    О НАС
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="#">
+                    БЛОГ
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="FAQ.html">
+                    FAQ
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a class="footer__about-link" href="contact-map.html">
+                    КОНТАКТЫ
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__form-input">
+              <div class="footer__form-title">
+                Подпишитесь на новости
+              </div>
+              <form>
+                <input class="footer__input" type="text" placeholder="Email" required>
+                <button class="footer__btn" type="submit">ok</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          © 2021 Décor Boutique
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
